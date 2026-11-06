@@ -1,0 +1,25 @@
+services:
+  backend:
+    build: ./backend_files
+    environment:
+      OPENAI_API_KEY: ${OPENAI_API_KEY:?Set OPENAI_API_KEY in your environment or local .env}
+      OPENAI_API_BASE: ${OPENAI_API_BASE:?Set OPENAI_API_BASE in your environment or local .env}
+    ports:
+      - "127.0.0.1:7860:7860"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:7860/', timeout=5)"]
+      interval: 10s
+      timeout: 6s
+      start_period: 20s
+      retries: 6
+    restart: unless-stopped
+  frontend:
+    build: ./frontend_files
+    environment:
+      BACKEND_URL: http://backend:7860
+    ports:
+      - "127.0.0.1:8501:8501"
+    depends_on:
+      backend:
+        condition: service_healthy
+    restart: unless-stopped

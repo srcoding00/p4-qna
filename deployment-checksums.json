@@ -1,0 +1,20 @@
+{
+  "compose.yaml": "2a2d3b6f9435dda9d01f196b0549244d8728bc4ec0f3ebe97d20ba49055b743d",
+  ".devcontainer/devcontainer.json": "f5748e93f4e3c642c90e3b6e4c98fbed7dd78a4ab236a40a56ee1a64bc1288ac",
+  ".env.example": "6aa31a3a7eee9c17b8f6368f78651c5ffd4dd8a89b5dcecb7d9844e1dec304b3",
+  "DEPLOYMENT.md": "b64db88fcd25643859dd507f8bc0352ec84569241ef0920b2b7a2af3535f2b19",
+  ".gitignore": "99b6eed0fb2fdde0542eadf1cf4e75872a1d78d75f7a3e2d89ab62df8699d1dd",
+  "backend_files/app.py": "5425d5def7a263a6f3583b6a2a97b2ad5b92f73c3792afcd98d6ef5ec8d28558",
+  "backend_files/rag_utils.py": "9d29437f6d7fdcc100cf25e831e507c995251951d166edd4fbdae91cde19d400",
+  "backend_files/settings.json": "ad454f7942d5b839b6172cb7078dff6911725a3af9ef477134bf0dddd1597c6a",
+  "backend_files/requirements.txt": "b406d76cde4f9861a1321c0e7f391c9de9e2acce5ce4850039a453ad4872a41c",
+  "backend_files/Dockerfile": "7cbdf442afaf78c6dd4c27d6ff677c5dc04f2ab84258e3538c4b3b0e322ff635",
+  "backend_files/.dockerignore": "0ee70dff2f567da6ea8ff5bdde3dab4983fb7f4fc60e247961c572648bf5d1cd",
+  "backend_files/faiss_index/index.faiss": "5f58f2f77f6c82983b91992c633e2d21bc01480fcb36432cd42aa87c5ceb8db0",
+  "backend_files/faiss_index/index.pkl": "15b1aeff2752abc7c3dea45124175021912461ea902689ad4a9d50fca0debdce",
+  "backend_files/faiss_index/manifest.json": "3b52f1b66369c132322ae3d186d5c30fa4b003b13ef5f59cf05e7f4e41f03fe5",
+  "frontend_files/app.py": "3121a558f099a9e1f7c41a5ff34324251afe1e3ddf4c2940101d4c2bab566585",
+  "frontend_files/requirements.txt": "7031f438c4ffa6d00d3a962e8f8449979bb8e523503dde76408e7a9ccd58cb50",
+  "frontend_files/Dockerfile": "bd48de72480e4c4701ed78c04a0abcc2e7bcf7e125133000f79c0620ad575e7a",
+  "frontend_files/.dockerignore": "0ee70dff2f567da6ea8ff5bdde3dab4983fb7f4fc60e247961c572648bf5d1cd"
+}
