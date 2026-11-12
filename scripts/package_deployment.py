@@ -6,7 +6,7 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 FILES = [
-    'compose.yaml', '.devcontainer/devcontainer.json', '.env.example',
+    'compose.yaml', '.devcontainer/devcontainer.json', '.devcontainer/Dockerfile', '.env.example',
     'DEPLOYMENT.md', '.gitignore',
     'backend_files/app.py', 'backend_files/rag_utils.py',
     'backend_files/settings.json', 'backend_files/requirements.txt',
